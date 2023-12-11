@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
 }
 
 html,body{
@@ -88,4 +89,14 @@ html,body{
     margin-left: -120px;
     color: black;
     padding: 30px;
+}
+
+@media screen and (max-width : 950px){
+    .form-container{
+        position: static;
+        display: inline-block;
+        margin-left: 20%;
+        width: 96%;
+        max-width: 400px;
+    }
 }
