@@ -21,7 +21,7 @@ html,body{
 
 header{
     padding: 10px 2%;
-    background-color: rgb(65, 63, 60);
+    background-color: #0ec0c1;
 }
 
 .logo1{
@@ -66,7 +66,7 @@ section.cover-form{
 }
 
 .bg{
-    height: 500px;
+    height: 700px;
     background-position: center;
     background-size: cover;
     background-image: url('/img/setup.jpg');
@@ -76,23 +76,25 @@ section.cover-form{
 
 section.chamada{
     width: 100%;
-    padding: 2%;
+    padding: 2% 2% 0% 2%;
     text-align: center;
     display: inline-block;
     position: relative;
-    top: -28px;
+    
+    
 }
 
 section.chamada .container{
-    padding: 40px;
-    background-color: rgb(45, 61, 68);
+    padding: 20px ;
+    background-color: #fef7d5;
+    
 }
 
 section.chamada h2{
     width: 96%;
     display: inline-block;
     max-width: 700px;
-    color: aliceblue;
+    color: #210123;
     text-transform: uppercase;
     font-size: 30px;
     font-weight: normal;
@@ -103,11 +105,49 @@ section.chamada p{
     width: 96%;
     display: inline-block;
     max-width: 700px;
-    color: aliceblue;
+    color: #210123;
     margin-top: 10px;
     font-size: 18px;
     font-weight: normal;
 }
+
+/*  */
+
+.flex-mosaico{
+    margin-top: -10px;
+    display: flex;
+    padding: 2% 2% 2% 2%;
+    height: 400px;
+    margin: 0;
+}
+
+.item1-mosaico{
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    padding: 2%;
+}
+
+.item2-mosaico{
+    text-align: center;
+    background-color:#6c043c ;
+    padding: 60px;
+    width: 40%;
+}
+
+p{
+    display: inline-block;
+    color:white ;
+    padding: 40px;
+    font-family: 'Open Sans',sans-serif;
+    font-size:18px ;
+}
+
+
+
+
+
+
 
 
 
